@@ -1,5 +1,11 @@
 print("Initializing pipeline")
 
+def validate_fastq_file(filename):
+    if not filename.endswith(".fastq"):
+        print("Warning: input file may not be a FASTQ file")
+    else:
+	print("FASTQ input validation passed")
+
 def quality_control(reads):
     print("Starting QC step")
 
@@ -20,3 +26,4 @@ print("QC step finished")
 print("All checks done")
 print("Ready to continue")
 print("Next, variant calling")
+
