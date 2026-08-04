@@ -2,7 +2,7 @@
 
 ## Description
 This project contains a simple bioinformatics pipeline created to demonstrate version control, collaboration, and reproducible research practices. 
-It will simulates basic bioinfoirmatucs steps such as quality control checks and variant analysis.
+It will simulates basic bioinfoirmatics steps such as quality control checks and variant analysis.
 
 ## Dependencies
 This pipeline requires the Python 3.14 or higher. 
